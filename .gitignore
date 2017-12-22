@@ -1,0 +1,4 @@
+sass_perfom/*.sass-cache
+.idea
+/php/vendor
+/php/composer.lock

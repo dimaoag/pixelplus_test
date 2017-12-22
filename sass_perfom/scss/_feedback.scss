@@ -1,0 +1,108 @@
+#feedback_position{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    display: none;
+    
+}
+#feedback_overall_window{
+    max-width:520px;
+    margin: 20% auto;
+        @media only screen and (max-width: 540px){
+          width: 388px;  
+        }
+        @media only screen and (max-width: 381px){
+           width: 308px; 
+        }
+}
+.feedback_close_button{
+    width: 27px;
+    height: 27px;
+    background-color: #787878;
+    margin-left: 493px;
+    cursor: pointer;
+    img{margin: 6px;}
+        @media only screen and (max-width: 540px){
+          margin-left: 361px;
+        }
+        @media only screen and (max-width: 380px){
+          margin-left: 281px; 
+        }
+}
+.feedback_close_button:hover{
+    background-color: red;
+}
+.feedback_window{
+    background-color: #ffffff;
+    margin: 0 27px 27px 27px;
+    text-align: center;
+    padding-top: 35px;
+    h2{
+        font-size: 24px;
+        font-weight: bold;
+        color: #535353;
+        margin-bottom: 35px;
+    }
+}
+button[type="button"]{
+        margin-top: 3px;
+        margin-bottom: 26px;
+    width: 128px;
+    height: 42px;
+    font-size: 17.8px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #787878;
+    cursor: pointer;
+}
+button[type="button"]:hover{
+    background-color: azure;
+    color: cadetblue;
+}
+button[type="button"]:active{
+    border-color: red;
+}
+input[type="text"]{
+    height: 40px;
+    border: solid 1px #c3c3c3;
+    padding: 0 10px;
+    width: 339px;
+        @media only screen and (max-width: 540px){
+        width: 280px;
+        }
+        @media only screen and (max-width: 380px){
+        width: 200px;   
+        }
+}
+#message_of{
+    width: 339px;
+    height: 140px;
+        @media only screen and (max-width: 540px){
+        width: 280px;
+        }
+        @media only screen and (max-width: 380px){
+        width: 200px;   
+        }
+}
+.form_marker{
+    margin-bottom: 0;
+    font-size: 12px;
+    color: #535353;
+}
+.blank_field_none{
+  background-color: #ffffff;
+  box-shadow: inset 0 0 13px 0 rgba(228, 106, 106, 0.75);
+  border: solid 1px #ff8383;
+  font-style: italic;
+}
+.blank_field{
+   background-color:#E2FCEB; 
+   box-shadow: none;
+    color:darkgreen;
+}
+blank_field_temp{
+    box-shadow: none;
+}
+
+
